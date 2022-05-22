@@ -5,6 +5,7 @@
   grid-column-start: nav;
   grid-column-end: nav;
   z-index: 100;
+  width: 5px;
 }
 #api-vertical-nav .api-nav-item {
   color: white;

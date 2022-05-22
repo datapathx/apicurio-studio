@@ -1,4 +1,8 @@
 <div class="pf-c-page" id="page-layout-default-nav">
+    <div class="vnav">
+        <vertical-nav *ngIf="authService.isAuthenticated()"></vertical-nav>
+    </div>
+    
     <div id="{{ routerOutletWrapperId }}" class="{{ routerOutletWrapperClass }}">
         <router-outlet></router-outlet>
     </div>
