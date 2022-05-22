@@ -1,6 +1,11 @@
 <div id="api-vertical-nav-wrapper">
 
     <div id="api-vertical-nav">
+         <div id="api-nav-item-dashboard" class="api-nav-item" [class.active]="isDashboardRoute()"
+             [class.selected]="currentSubMenu === subMenuTypes.Dashboard" (click)="goToDashboard()">
+            <span class="fa fa-fw fa-dashboard"></span>
+            <div>Dashboard</div>
+        </div>
         <div class="api-nav-item-filler">
         </div>
     </div>
