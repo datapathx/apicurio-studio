@@ -3,9 +3,10 @@
 }
 
 .vnav {
-  grid-column-start: m;
-  grid-column-end: m;
-  width: 120px;
+  grid-column-start: c;
+  grid-column-end: c;
+  width: 100px;
+  height: 1px;
   overflow: hidden;
 }
 
