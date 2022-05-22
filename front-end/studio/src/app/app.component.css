@@ -13,7 +13,8 @@
   grid-column-start: k;
   grid-column-end: k;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-y-was: auto;
   background-color: #f5f5f5;
   position: relative;
 }
